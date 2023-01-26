@@ -1,17 +1,18 @@
 import "../css/Footer.css";
+import { FaLinkedin, FaFacebookSquare, FaInstagram } from "react-icons/fa";
 
 export const Footer = () => {
   return (
     <section className="footer">
       <section className="footer-social-media">
         <a href="/" target="_blank" rel="noopener noreferrer">
-          LinkedIn
+          <FaLinkedin /> LinkedIn
         </a>
         <a href="/" target="_blank" rel="noopener noreferrer">
-          Facebook
+          <FaFacebookSquare /> Facebook
         </a>
         <a href="/" target="_blank" rel="noopener noreferrer">
-          Instagram
+          <FaInstagram /> Instagram
         </a>
       </section>
       <section className="footer-info">
