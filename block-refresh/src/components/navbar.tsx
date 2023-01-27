@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
+import Logo from "../images/logo.png";
 
 function Navbar() {
   const [nav, setNav] = useState(false);
@@ -8,7 +9,12 @@ function Navbar() {
     setNav(!nav);
   };
   return (
-    <div className="flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-[#475c54]">
+    <div className="flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-[#475c54] bg-[#cce3de]">
+      <img
+        src={Logo}
+        alt="Block Refresh Logo"
+        className="rounded-full w-20 mr-4"
+      />
       <h1 className="w-full text-3xl font-bold">Block Refresh</h1>
       <ul className="hidden md:flex text-center">
         <li className="p-4">Home</li>
@@ -16,13 +22,18 @@ function Navbar() {
         <li className="p-4 whitespace-nowrap">Contact Us</li>
         <li className="p-4">Membership</li>
         <li className="p-4">Donate</li>
+        <li>
+          <button className="p-4 whitespace-nowrap rounded-full text-white bg-[#668378]">
+            Log In
+          </button>
+        </li>
       </ul>
       <div onClick={handleNav} className="block md:hidden">
-        {!nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
+        {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
       </div>
       <div
         className={
-          !nav
+          nav
             ? "fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-400 bg-[#cce3de]"
             : "fixed left-[-100%]"
         }
