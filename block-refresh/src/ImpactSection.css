@@ -1,0 +1,34 @@
+.underline-header {
+    text-decoration: underline;
+    text-decoration-color: green;
+    text-decoration-thickness: 2px;
+    color: black;
+    }
+    
+    .impact-section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        color: black;
+        }
+        
+        .left-section {
+        width: 50%;
+        text-align: center;
+        }
+        
+        .right-section {
+        width: 50%;
+        text-align: center;
+        }
+        
+        .impact-img1, .impact-img2 {
+        width: 100%;
+        height: auto;
+        }
+        
+        .separation-line-section {
+        width: 100%;
+        text-align: center;
+        }
