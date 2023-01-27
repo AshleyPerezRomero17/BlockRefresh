@@ -3,7 +3,7 @@ import { FaLinkedin, FaFacebookSquare, FaInstagram } from "react-icons/fa";
 
 export const Footer = () => {
   return (
-    <div className="max-w-[1240px] mx-auto py-5 px-4 grid lg:grid-cols-3 gap-8 text-[#475c54] fixed bottom-0 w-full bg-[#cce3de] left-1/2 -translate-x-1/2">
+    <div className="max-w-[1240px] mx-auto py-5 px-4 grid lg:grid-cols-3 gap-8 text-[#475c54] fixed bottom-0 w-full bg-[#cce3de] left-1/2 -translate-x-1/2 -z-10">
       <div className="flex flex-col justify-between flex-wrap grow items-center">
         <h1 className=" text-3xl font-bold">Block Refresh</h1>
         <div className="flex justify-between items-center md:w-[75%] my-6 pl-1/2">
