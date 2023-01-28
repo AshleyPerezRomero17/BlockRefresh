@@ -1,63 +1,115 @@
-import React, { useState } from "react";
-import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
+import React from "react";
+import { AiOutlineMenu } from "react-icons/ai";
 import Logo from "../images/logo.png";
 
-function Navbar() {
-  const [nav, setNav] = useState(false);
-
-  const handleNav = () => {
-    setNav(!nav);
-  };
+export const Navbar = () => {
+  function toggleMenu() {
+    var menu: any = document.getElementById("menu");
+    if (menu.style.display === "none") {
+      menu.style.display = "block";
+    } else {
+      menu.style.display = "none";
+    }
+  }
   return (
-    <div className="flex justify-between items-center top-0 h-24 max-w-[1240px] mx-auto px-4 text-[#475c54] bg-[#cce3de] fixed left-1/2 -translate-x-1/2 w-full z-30">
-      <img
-        src={Logo}
-        alt="Block Refresh Logo"
-        className="rounded-full w-20 mr-4"
-      />
-      <h1 className="w-full text-3xl font-bold">Block Refresh</h1>
-      <ul className="hidden md:flex text-center">
-        <li className="p-4">Home</li>
-        <li className="p-4 whitespace-nowrap">About Us</li>
-        <li className="p-4 whitespace-nowrap">Contact Us</li>
-        <li className="p-4">Membership</li>
-        <li className="p-4">Donate</li>
-        <li>
-          <button className="p-4 whitespace-nowrap rounded-full text-white bg-[#668378]">
-            Log In
-          </button>
-        </li>
-      </ul>
-      <div onClick={handleNav} className="block md:hidden">
-        {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
-
-        <div
-          className={
-            nav
-              ? "absolute left-0 top-0 w-[90%] h-full border-r border-r-gray-400 bg-[#cce3de] ease-in-out duration-500 "
-              : "ease-in-out duration-500 fixed left-[-100%]"
-          }
-        >
-          <h1 className="w-full text-3xl font-bold m-4 ">Block Refresh</h1>
-          <ul className="uppercase">
-            <li className="p-4 border-b border-gray-400 bg-[#cce3de]">Home</li>
-            <li className="p-4 border-b border-gray-400 bg-[#cce3de]">
-              About Us
-            </li>
-            <li className="p-4 border-b border-gray-400 bg-[#cce3de] ">
-              Contact Us
-            </li>
-            <li className="p-4 border-b border-gray-400 bg-[#cce3de]">
-              Membership
-            </li>
-            <li className="p-4 border-b border-gray-400 bg-[#cce3de]">
-              Donate
-            </li>
-          </ul>
+    <div>
+      <nav className="bg-[#cce3de] dark:bg-[#475c54]  shadow ">
+        <div className="px-8 mx-auto max-w-7xl">
+          <div className="flex items-center justify-between h-24">
+            <div className="w-full justify-between flex items-center">
+              <a className="flex-shrink-0" href="/">
+                <img
+                  className="rounded-full w-20"
+                  src={Logo}
+                  alt="Block Refresh Logo"
+                />
+              </a>
+              <div className="hidden md:block">
+                <div className="flex items-baseline ml-10 space-x-4">
+                  <a
+                    className="text-[#b4c9c5]  hover:text-[#475c54] dark:hover:text-[#cce3de] px-3 py-2 rounded-md text-sm font-medium"
+                    href="/"
+                  >
+                    Home
+                  </a>
+                  <a
+                    className="text-[#475c54] dark:text-[#cce3de]  hover:text-[#475c54] dark:hover:text-[#cce3de] px-3 py-2 rounded-md text-sm font-medium"
+                    href="/#"
+                  >
+                    About Us
+                  </a>
+                  <a
+                    className="text-[#b4c9c5]  hover:text-[#475c54] dark:hover:text-[#cce3de] px-3 py-2 rounded-md text-sm font-medium"
+                    href="/#"
+                  >
+                    Contact Us
+                  </a>
+                  <a
+                    className="text-[#b4c9c5]  hover:text-[#475c54] dark:hover:text-[#cce3de] px-3 py-2 rounded-md text-sm font-medium"
+                    href="/#"
+                  >
+                    Membership
+                  </a>
+                  <a
+                    className="text-[#b4c9c5]  hover:text-[#475c54] dark:hover:text-[#cce3de] px-3 py-2 rounded-md text-sm font-medium"
+                    href="/#"
+                  >
+                    Donate
+                  </a>
+                  <button className="p-4 whitespace-nowrap rounded-full text-white bg-[#668378] hover:bg-[#303e39]">
+                    Log In
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div className="block">
+              <div className="flex items-center ml-4 md:ml-6"></div>
+            </div>
+            <div className="flex -mr-2 md:hidden">
+              <button
+                onClick={toggleMenu}
+                className="text-[#475c54] dark:text-[#cce3de] hover:text-[#b4c9c5] inline-flex items-center justify-center p-2 rounded-md focus:outline-none"
+              >
+                <AiOutlineMenu size={20} fill="currentColor" />
+              </button>
+            </div>
+          </div>
         </div>
-      </div>
+        <div className="md:hidden" id="menu">
+          <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+            <a
+              className="text-[#b4c9c5] hover:text-[#475c54] dark:hover:text-[#cce3de] block px-3 py-2 rounded-md text-base font-medium"
+              href="/#"
+            >
+              Home
+            </a>
+            <a
+              className="text-[#475c54] dark:text-[#cce3de] block px-3 py-2 rounded-md text-base font-medium"
+              href="/#"
+            >
+              About Us
+            </a>
+            <a
+              className="text-[#b4c9c5] hover:text-[#475c54] dark:hover:text-[#cce3de] block px-3 py-2 rounded-md text-base font-medium"
+              href="/#"
+            >
+              Contact Us
+            </a>
+            <a
+              className="text-[#b4c9c5] hover:text-[#475c54] dark:hover:text-[#cce3de] block px-3 py-2 rounded-md text-base font-medium"
+              href="/#"
+            >
+              Membership
+            </a>
+            <a
+              className="text-[#b4c9c5] hover:text-[#475c54] dark:hover:text-[#cce3de] block px-3 py-2 rounded-md text-base font-medium"
+              href="/#"
+            >
+              Donate
+            </a>
+          </div>
+        </div>
+      </nav>
     </div>
   );
-}
-
-export default Navbar;
+};
