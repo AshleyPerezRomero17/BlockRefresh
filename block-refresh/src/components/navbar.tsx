@@ -9,7 +9,7 @@ function Navbar() {
     setNav(!nav);
   };
   return (
-    <div className="flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-[#475c54] bg-[#cce3de] absolute left-1/2 -translate-x-1/2 w-full z-999">
+    <div className="flex justify-between items-center top-0 h-24 max-w-[1240px] mx-auto px-4 text-[#475c54] bg-[#cce3de] fixed left-1/2 -translate-x-1/2 w-full z-30">
       <img
         src={Logo}
         alt="Block Refresh Logo"
