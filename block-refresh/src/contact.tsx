@@ -96,7 +96,7 @@ function contact() {
         <img
           alt="Welcome"
           src="https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/tnc_69881045.jpg?crop=240%2C0%2C2400%2C1320&wid=4000&hei=2200&scl=0.6"
-          className="absolute inset-100 h-full w-full object-cover"
+          className="  absolute inset-100 h-3/4 w-full object-cover rounded-2xl  p-4	"
         />
       </div>
     </section>
