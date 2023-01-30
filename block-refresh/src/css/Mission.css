@@ -1,0 +1,17 @@
+.mission {
+    text-align: center;
+    padding: 0 120px;
+}
+
+.mission h2 {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.mission p {
+        font-size: 26px;
+}
+
+.separation-line-section {
+    padding-top: 145px;
+}

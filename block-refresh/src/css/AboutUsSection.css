@@ -1,0 +1,36 @@
+.about-us-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 60px 0;
+}
+
+.left-section {
+    text-align: center;
+    width: 45%;
+}
+
+.right-section {
+    text-align: center;
+    width: 45%;
+}
+
+.about-us-img {
+    width: 100%;
+}
+
+.left-section h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.right-section h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.left-section button:hover, .right-section button:hover {
+    background-color: black;
+    color: white;
+}
