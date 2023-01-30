@@ -1,5 +1,5 @@
 import React from "react";
-const natureBooks = require("./Images/nature-books.webp");
+const natureBooks = require("./images/nature-books.webp");
 
 class Benefitsprops {}
 
