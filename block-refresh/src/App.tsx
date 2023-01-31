@@ -5,7 +5,7 @@ import { Home } from "./components/home";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Footer } from "./components/footer";
 import Membership from "./components/Memership";
-import Contact from "./components/contact";
+import { Contact } from "./components/contact";
 
 function App() {
   return (

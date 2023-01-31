@@ -1,6 +1,6 @@
 import React from "react";
 
-function contact() {
+export const Contact = () => {
   return (
     <section className="relative flex flex-wrap lg:h-screen lg:items-center bg-[#CCE3DE] text-[#475C54]">
       <div className="w-1/2 px-4 sm:px-6 sm:py-16 lg:w-1/2 lg:px-8 lg:py-24 text-[#475C54] bg-[#CCE3DE]">
@@ -100,6 +100,6 @@ function contact() {
       </div>
     </section>
   );
-}
+};
 
-export default contact;
+export default Contact;
