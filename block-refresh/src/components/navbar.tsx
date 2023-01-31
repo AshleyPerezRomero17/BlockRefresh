@@ -18,13 +18,13 @@ export const Navbar = () => {
         <div className="px-8 mx-auto max-w-7xl">
           <div className="flex items-center justify-between h-24">
             <div className="w-full justify-between flex items-center">
-              <a className="flex-shrink-0" href="/">
+              <Link className="flex-shrink-0" to="/">
                 <img
                   className="rounded-full w-20"
                   src={Logo}
                   alt="Block Refresh Logo"
                 />
-              </a>
+              </Link>
               <div className="hidden md:block">
                 <div className="flex items-baseline ml-10 space-x-4">
                   <Link
@@ -86,7 +86,7 @@ export const Navbar = () => {
             </Link>
             <Link
               className="text-[#475c54] dark:text-[#cce3de] block px-3 py-2 rounded-md text-base font-medium"
-              to="/AboutUs"
+              to="/AboutPage"
             >
               About Us
             </Link>
