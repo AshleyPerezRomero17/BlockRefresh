@@ -26,33 +26,33 @@ export const Navbar = () => {
                 />
               </Link>
               <div className="hidden md:block">
-                <div className="flex items-baseline ml-10 space-x-4">
+                <div className="flex items-baseline ml-10 space-x-4 text-[#709186]">
                   <Link
-                    className="text-[#b4c9c5]  hover:text-[#475c54] dark:hover:text-[#cce3de] px-3 py-2 rounded-md text-sm font-medium"
+                    className="  hover:text-[#475c54] dark:hover:text-[#cce3de] px-3 py-2 rounded-md text-sm font-medium"
                     to="/"
                   >
                     Home
                   </Link>
                   <Link
-                    className="text-[#475c54] dark:text-[#cce3de]  hover:text-[#475c54] dark:hover:text-[#cce3de] px-3 py-2 rounded-md text-sm font-medium"
+                    className="hover:text-[#475c54] dark:hover:text-[#cce3de] px-3 py-2 rounded-md text-sm font-medium"
                     to="/AboutPage"
                   >
                     About Us
                   </Link>
                   <Link
-                    className="text-[#b4c9c5]  hover:text-[#475c54] dark:hover:text-[#cce3de] px-3 py-2 rounded-md text-sm font-medium"
+                    className="hover:text-[#475c54] dark:hover:text-[#cce3de] px-3 py-2 rounded-md text-sm font-medium"
                     to="/ContactUs"
                   >
                     Contact Us
                   </Link>
                   <Link
-                    className="text-[#b4c9c5]  hover:text-[#475c54] dark:hover:text-[#cce3de] px-3 py-2 rounded-md text-sm font-medium"
+                    className="hover:text-[#475c54] dark:hover:text-[#cce3de] px-3 py-2 rounded-md text-sm font-medium"
                     to="/Membership"
                   >
                     Membership
                   </Link>
                   <Link
-                    className="text-[#b4c9c5]  hover:text-[#475c54] dark:hover:text-[#cce3de] px-3 py-2 rounded-md text-sm font-medium"
+                    className="hover:text-[#475c54] dark:hover:text-[#cce3de] px-3 py-2 rounded-md text-sm font-medium"
                     to="/Donate"
                   >
                     Donate
