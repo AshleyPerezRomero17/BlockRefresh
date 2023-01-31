@@ -28,13 +28,13 @@ export const Footer = () => {
               </h2>
               <ul>
                 <li className="mb-4 transition-colors duration-200 hover:text-[#475c54] dark:hover:text-[#cce3de]">
-                  <a href="#">Home</a>
+                  <a href="http://localhost:3000/">Home</a>
                 </li>
                 <li className="mb-4 transition-colors duration-200 hover:text-[#475c54] dark:hover:text-[#cce3de]">
-                  <a href="#">About Us</a>
+                  <a href="http://localhost:3000/AboutPage">About Us</a>
                 </li>
                 <li className="mb-4 transition-colors duration-200 hover:text-[#475c54] dark:hover:text-[#cce3de]">
-                  <a href="#">Contact Us</a>
+                  <a href="http://localhost:3000/ContactUs">Contact Us</a>
                 </li>
               </ul>
             </div>
@@ -46,13 +46,13 @@ export const Footer = () => {
               </h2>
               <ul>
                 <li className="mb-4 transition-colors duration-200 hover:text-[#475c54] dark:hover:text-[#cce3de]">
-                  <a href="#">Membership</a>
+                  <a href="http://localhost:3000/Membership">Membership</a>
                 </li>
                 <li className="mb-4 transition-colors duration-200 hover:text-[#475c54] dark:hover:text-[#cce3de]">
-                  <a href="#">Donate</a>
+                  <a href="http://localhost:3000/Donate">Donate</a>
                 </li>
                 <li className="mb-4 transition-colors duration-200 hover:text-[#475c54] dark:hover:text-[#cce3de]">
-                  <a href="#">Log In</a>
+                  <a href="http://localhost:3000/Membership">Log In</a>
                 </li>
               </ul>
             </div>

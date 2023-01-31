@@ -57,9 +57,11 @@ export const Navbar = () => {
                   >
                     Donate
                   </Link>
-                  <button className="p-4 whitespace-nowrap rounded-full text-white bg-[#668378] hover:bg-[#303e39]">
-                    Log In
-                  </button>
+                  <Link to="/Membership">
+                    <button className="p-4 whitespace-nowrap rounded-full text-white bg-[#668378] hover:bg-[#303e39]">
+                      Log In
+                    </button>
+                  </Link>
                 </div>
               </div>
             </div>
