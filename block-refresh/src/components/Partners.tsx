@@ -13,14 +13,14 @@ return (
 </div>
 <div className="right-section">
 <div className="partner-section">
-<img src="partner1.jpg" alt="Partner 1" className="partner-img" />
-<img src="partner2.jpg" alt="Partner 2" className="partner-img" />
-<img src="partner3.jpg" alt="Partner 3" className="partner-img" />
+<img src="p1.png" alt="Partner 1" className="partner-img" />
+<img src="p2.png" alt="Partner 2" className="partner-img" />
+<img src="p3.png" alt="Partner 3" className="partner-img" />
 </div>
 <div className="partner-section">
-<img src="partner4.jpg" alt="Partner 4" className="partner-img" />
-<img src="partner5.jpg" alt="Partner 5" className="partner-img" />
-<img src="partner6.jpg" alt="Partner 6" className="partner-img" />
+<img src="p4.png" alt="Partner 4" className="partner-img" />
+<img src="p5.png" alt="Partner 5" className="partner-img" />
+<img src="p6.png" alt="Partner 6" className="partner-img" />
 </div>
 </div>
 </div>

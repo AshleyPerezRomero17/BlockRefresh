@@ -1,6 +1,7 @@
 import React from "react";
 import { AiOutlineMenu } from "react-icons/ai";
 import Logo from "../images/logo.png";
+import { Link } from "react-router-dom";
 
 export const Navbar = () => {
   function toggleMenu() {
@@ -26,36 +27,36 @@ export const Navbar = () => {
               </a>
               <div className="hidden md:block">
                 <div className="flex items-baseline ml-10 space-x-4">
-                  <a
+                  <Link
                     className="text-[#b4c9c5]  hover:text-[#475c54] dark:hover:text-[#cce3de] px-3 py-2 rounded-md text-sm font-medium"
-                    href="/"
+                    to="/"
                   >
                     Home
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     className="text-[#475c54] dark:text-[#cce3de]  hover:text-[#475c54] dark:hover:text-[#cce3de] px-3 py-2 rounded-md text-sm font-medium"
-                    href="/#"
+                    to="/AboutPage"
                   >
                     About Us
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     className="text-[#b4c9c5]  hover:text-[#475c54] dark:hover:text-[#cce3de] px-3 py-2 rounded-md text-sm font-medium"
-                    href="/#"
+                    to="/ContactUs"
                   >
                     Contact Us
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     className="text-[#b4c9c5]  hover:text-[#475c54] dark:hover:text-[#cce3de] px-3 py-2 rounded-md text-sm font-medium"
-                    href="/#"
+                    to="/Membership"
                   >
                     Membership
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     className="text-[#b4c9c5]  hover:text-[#475c54] dark:hover:text-[#cce3de] px-3 py-2 rounded-md text-sm font-medium"
-                    href="/#"
+                    to="/Donate"
                   >
                     Donate
-                  </a>
+                  </Link>
                   <button className="p-4 whitespace-nowrap rounded-full text-white bg-[#668378] hover:bg-[#303e39]">
                     Log In
                   </button>
@@ -77,36 +78,36 @@ export const Navbar = () => {
         </div>
         <div className="md:hidden" id="menu">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-            <a
+            <Link
               className="text-[#b4c9c5] hover:text-[#475c54] dark:hover:text-[#cce3de] block px-3 py-2 rounded-md text-base font-medium"
-              href="/#"
+              to="/"
             >
               Home
-            </a>
-            <a
+            </Link>
+            <Link
               className="text-[#475c54] dark:text-[#cce3de] block px-3 py-2 rounded-md text-base font-medium"
-              href="/#"
+              to="/AboutUs"
             >
               About Us
-            </a>
-            <a
+            </Link>
+            <Link
               className="text-[#b4c9c5] hover:text-[#475c54] dark:hover:text-[#cce3de] block px-3 py-2 rounded-md text-base font-medium"
-              href="/#"
+              to="/ContactUs"
             >
               Contact Us
-            </a>
-            <a
+            </Link>
+            <Link
               className="text-[#b4c9c5] hover:text-[#475c54] dark:hover:text-[#cce3de] block px-3 py-2 rounded-md text-base font-medium"
-              href="/#"
+              to="/Membership"
             >
               Membership
-            </a>
-            <a
+            </Link>
+            <Link
               className="text-[#b4c9c5] hover:text-[#475c54] dark:hover:text-[#cce3de] block px-3 py-2 rounded-md text-base font-medium"
-              href="/#"
+              to="/Donate"
             >
               Donate
-            </a>
+            </Link>
           </div>
         </div>
       </nav>

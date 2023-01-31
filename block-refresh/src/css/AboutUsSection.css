@@ -3,17 +3,25 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin: 60px 0;
+    margin: 60px 60px;
+}
+
+.about-us-section p {
+    text-align: center;
+}
+
+.about-us-section h2 {
+    text-align: center;
 }
 
 .left-section {
-    text-align: center;
     width: 45%;
+    font-size: 24px;
 }
 
 .right-section {
-    text-align: center;
     width: 45%;
+    font-size: 20px;
 }
 
 .about-us-img {
@@ -21,7 +29,6 @@
 }
 
 .left-section h2 {
-    text-align: center;
     text-decoration: underline;
 }
 

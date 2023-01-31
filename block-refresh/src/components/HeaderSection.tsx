@@ -5,7 +5,7 @@ const HeaderSection: React.FC<Props> = () => {
 return (
 <div>
 <div className="header-section">
-<div className="left-section">
+<div className="left-section-hs">
 <h2>Our Mission</h2>
 <p>To make a positive impact in the world through our actions and initiatives.</p>
 </div>
