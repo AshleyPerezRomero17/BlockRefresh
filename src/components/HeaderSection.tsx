@@ -7,7 +7,7 @@ return (
 <div className="header-section">
 <div className="left-section-hs">
 <h2 className="font-extrabold">Our Mission</h2>
-<p>Our mission is to enhance the quality of life in our neighborhoods by promoting environmental sustainability through the preservation, creation, and restoration of open spaces, parks, and community gardens. We strive to create vibrant and healthy communities that foster a connection to nature and provide opportunities for recreation and community building."</p>
+<p>Our mission is to enhance the quality of life in our neighborhoods by promoting environmental sustainability through the preservation, creation, and restoration of open spaces, parks, and community gardens. We strive to create vibrant and healthy communities that foster a connection to nature and provide opportunities for recreation and community building.</p>
 </div>
 <div className="right-section">
 <div className="right-header">
