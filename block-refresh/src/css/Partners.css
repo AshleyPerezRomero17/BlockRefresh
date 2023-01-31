@@ -1,0 +1,39 @@
+.our-partners-section .left-section {
+    color: black;
+    text-align: left;
+    }
+    
+    .our-partners-section .left-section h2 {
+        color: black;
+        text-align: left;
+        text-decoration: none;
+        font-weight: bold;
+        }
+
+    .partner-section {
+        display: flex;
+        }
+        
+        .partner-img {
+        margin: 0 20px;
+        height: 100px;
+        width: 100px;
+        }
+        
+        .partner-section:nth-of-type(2) {
+        margin-top: 20px;
+        }
+
+        .our-partners-section {
+            padding: 60px 0;
+            margin-bottom: 60px;
+            display: flex;
+            justify-content: end;
+        }
+
+      
+.our-partners-section .right-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

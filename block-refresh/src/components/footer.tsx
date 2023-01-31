@@ -1,4 +1,8 @@
+<<<<<<< HEAD:src/components/footer.tsx
 // import "../css/Footer.css";
+=======
+import React from "react";
+>>>>>>> d939b02ca604b28272d2ad7fc19d562a725707db:block-refresh/src/components/footer.tsx
 import { FaLinkedin, FaFacebookSquare, FaInstagram } from "react-icons/fa";
 
 export const Footer = () => {

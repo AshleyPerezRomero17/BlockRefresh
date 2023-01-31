@@ -1,7 +1,11 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
@@ -14,7 +18,14 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "preserve"
   },
+<<<<<<< HEAD:tsconfig.json
   "include": ["src", "block-fresh/src/contact.tsx"]
+=======
+  "include": [
+    "src",
+    "../Hero.tsx"
+  ]
+>>>>>>> d939b02ca604b28272d2ad7fc19d562a725707db:block-refresh/tsconfig.json
 }
