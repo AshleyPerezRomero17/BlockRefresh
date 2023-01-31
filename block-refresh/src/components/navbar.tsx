@@ -1,6 +1,7 @@
 import React from "react";
 import { AiOutlineMenu } from "react-icons/ai";
-import Logo from "./images/logo.png";
+import Logo from "./Images/logo.png";
+import { Link } from "react-router-dom";
 
 export const Navbar = () => {
   function toggleMenu() {
@@ -17,45 +18,45 @@ export const Navbar = () => {
         <div className="px-8 mx-auto max-w-7xl">
           <div className="flex items-center justify-between h-24">
             <div className="w-full justify-between flex items-center">
-              <a className="flex-shrink-0" href="/">
+              <Link className="flex-shrink-0" to="/">
                 <img
                   className="rounded-full w-20"
                   src={Logo}
                   alt="Block Refresh Logo"
                 />
-              </a>
+              </Link>
               <div className="hidden md:block">
-                <div className="flex items-baseline ml-10 space-x-4">
-                  <a
-                    className="text-[#b4c9c5]  hover:text-[#475c54] dark:hover:text-[#cce3de] px-3 py-2 rounded-md text-sm font-medium"
-                    href="/"
+                <div className="flex items-baseline ml-10 space-x-4 text-[#709186]">
+                  <Link
+                    className="  hover:text-[#475c54] dark:hover:text-[#cce3de] px-3 py-2 rounded-md text-sm font-medium"
+                    to="/"
                   >
                     Home
-                  </a>
-                  <a
-                    className="text-[#475c54] dark:text-[#cce3de]  hover:text-[#475c54] dark:hover:text-[#cce3de] px-3 py-2 rounded-md text-sm font-medium"
-                    href="/#"
+                  </Link>
+                  <Link
+                    className="hover:text-[#475c54] dark:hover:text-[#cce3de] px-3 py-2 rounded-md text-sm font-medium"
+                    to="/AboutPage"
                   >
                     About Us
-                  </a>
-                  <a
-                    className="text-[#b4c9c5]  hover:text-[#475c54] dark:hover:text-[#cce3de] px-3 py-2 rounded-md text-sm font-medium"
-                    href="/#"
+                  </Link>
+                  <Link
+                    className="hover:text-[#475c54] dark:hover:text-[#cce3de] px-3 py-2 rounded-md text-sm font-medium"
+                    to="/ContactUs"
                   >
                     Contact Us
-                  </a>
-                  <a
-                    className="text-[#b4c9c5]  hover:text-[#475c54] dark:hover:text-[#cce3de] px-3 py-2 rounded-md text-sm font-medium"
-                    href="/#"
+                  </Link>
+                  <Link
+                    className="hover:text-[#475c54] dark:hover:text-[#cce3de] px-3 py-2 rounded-md text-sm font-medium"
+                    to="/Membership"
                   >
                     Membership
-                  </a>
-                  <a
-                    className="text-[#b4c9c5]  hover:text-[#475c54] dark:hover:text-[#cce3de] px-3 py-2 rounded-md text-sm font-medium"
-                    href="/#"
+                  </Link>
+                  <Link
+                    className="hover:text-[#475c54] dark:hover:text-[#cce3de] px-3 py-2 rounded-md text-sm font-medium"
+                    to="/Donate"
                   >
                     Donate
-                  </a>
+                  </Link>
                   <button className="p-4 whitespace-nowrap rounded-full text-white bg-[#668378] hover:bg-[#303e39]">
                     Log In
                   </button>
@@ -77,36 +78,36 @@ export const Navbar = () => {
         </div>
         <div className="md:hidden" id="menu">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-            <a
+            <Link
               className="text-[#b4c9c5] hover:text-[#475c54] dark:hover:text-[#cce3de] block px-3 py-2 rounded-md text-base font-medium"
-              href="/#"
+              to="/"
             >
               Home
-            </a>
-            <a
+            </Link>
+            <Link
               className="text-[#475c54] dark:text-[#cce3de] block px-3 py-2 rounded-md text-base font-medium"
-              href="/#"
+              to="/AboutPage"
             >
               About Us
-            </a>
-            <a
+            </Link>
+            <Link
               className="text-[#b4c9c5] hover:text-[#475c54] dark:hover:text-[#cce3de] block px-3 py-2 rounded-md text-base font-medium"
-              href="/#"
+              to="/ContactUs"
             >
               Contact Us
-            </a>
-            <a
+            </Link>
+            <Link
               className="text-[#b4c9c5] hover:text-[#475c54] dark:hover:text-[#cce3de] block px-3 py-2 rounded-md text-base font-medium"
-              href="/#"
+              to="/Membership"
             >
               Membership
-            </a>
-            <a
+            </Link>
+            <Link
               className="text-[#b4c9c5] hover:text-[#475c54] dark:hover:text-[#cce3de] block px-3 py-2 rounded-md text-base font-medium"
-              href="/#"
+              to="/Donate"
             >
               Donate
-            </a>
+            </Link>
           </div>
         </div>
       </nav>

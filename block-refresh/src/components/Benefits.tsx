@@ -1,6 +1,5 @@
 import React from "react";
-const natureBooks = require("./images/nature-books.webp");
-
+const natureBooks = require("./Images/nature-books.webp");
 class Benefitsprops {}
 
 //Setting the ts type as a React functional Component
