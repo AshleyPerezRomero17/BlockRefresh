@@ -20,8 +20,12 @@
     "noEmit": true,
     "jsx": "preserve"
   },
+<<<<<<< HEAD:tsconfig.json
+  "include": ["src", "block-fresh/src/contact.tsx"]
+=======
   "include": [
     "src",
     "../Hero.tsx"
   ]
+>>>>>>> d939b02ca604b28272d2ad7fc19d562a725707db:block-refresh/tsconfig.json
 }

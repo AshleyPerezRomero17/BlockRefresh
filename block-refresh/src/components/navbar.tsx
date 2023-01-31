@@ -1,18 +1,59 @@
-import React from "react";
-import { AiOutlineMenu } from "react-icons/ai";
-import Logo from "./Images/logo.png";
-import { Link } from "react-router-dom";
+import React, { useState } from "react";
+import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
+import Logo from "../images/logo.png";
 
-export const Navbar = () => {
-  function toggleMenu() {
-    var menu: any = document.getElementById("menu");
-    if (menu.style.display === "none") {
-      menu.style.display = "block";
-    } else {
-      menu.style.display = "none";
-    }
-  }
+function Navbar() {
+  const [nav, setNav] = useState(false);
+
+  const handleNav = () => {
+    setNav(!nav);
+  };
   return (
+<<<<<<< HEAD:src/components/navbar.tsx
+    <div className="flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-[#475c54] bg-[#cce3de]">
+      <img
+        src={Logo}
+        alt="Block Refresh Logo"
+        className="rounded-full w-20 mr-4"
+      />
+      <h1 className="w-full text-3xl font-bold">Block Refresh</h1>
+      <ul className="hidden md:flex text-center">
+        <li className="p-4">Home</li>
+        <li className="p-4 whitespace-nowrap">About Us</li>
+        <li className="p-4 whitespace-nowrap">Contact Us</li>
+        <li className="p-4">Membership</li>
+        <li className="p-4">Donate</li>
+        <li>
+          <button className="p-4 whitespace-nowrap rounded-full text-white bg-[#668378]">
+            Log In
+          </button>
+        </li>
+      </ul>
+      <div onClick={handleNav} className="block md:hidden">
+        {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
+      </div>
+      <div
+        className={
+          nav
+            ? "fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-400 bg-[#cce3de]"
+            : "fixed left-[-100%]"
+        }
+      >
+        <h1 className="w-full text-3xl font-bold m-4">Block Refresh</h1>
+        <ul className="uppercase">
+          <li className="p-4 border-b border-gray-400">Home</li>
+          <li className="p-4 border-b border-gray-400">About Us</li>
+          <li className="p-4 border-b border-gray-400">Contact Us</li>
+          <li className="p-4 border-b border-gray-400">Membership</li>
+          <li className="p-4 border-b border-gray-400">Donate</li>
+        </ul>
+      </div>
+    </div>
+  );
+}
+
+export default Navbar;
+=======
     <div>
       <nav className="bg-[#cce3de] dark:bg-[#475c54]  shadow ">
         <div className="px-8 mx-auto max-w-7xl">
@@ -116,3 +157,4 @@ export const Navbar = () => {
     </div>
   );
 };
+>>>>>>> d939b02ca604b28272d2ad7fc19d562a725707db:block-refresh/src/components/navbar.tsx
