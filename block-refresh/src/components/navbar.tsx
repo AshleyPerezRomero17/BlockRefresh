@@ -18,12 +18,18 @@ export const Navbar = () => {
         <div className="px-8 mx-auto max-w-7xl">
           <div className="flex items-center justify-between h-24">
             <div className="w-full justify-between flex items-center">
-              <Link className="flex-shrink-0" to="/">
+              <Link
+                className="flex items-center flex-shrink-0 justify-between"
+                to="/"
+              >
                 <img
                   className="rounded-full w-20"
                   src={Logo}
                   alt="Block Refresh Logo"
                 />
+                <h1 className="pl-4 text-[#709186] hover:text-[#475c54] dark:hover:text-[#cce3de] text-xl">
+                  Block Refresh
+                </h1>
               </Link>
               <div className="hidden md:block">
                 <div className="flex items-baseline ml-10 space-x-4 text-[#709186]">

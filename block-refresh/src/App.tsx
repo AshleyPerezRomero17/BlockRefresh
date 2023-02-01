@@ -18,8 +18,8 @@ function App() {
           <Route path="/Membership" element={<Membership />}></Route>
           <Route path="/Contact" element={<Contact />}></Route>
         </Routes>
+        <Footer />
       </BrowserRouter>
-      <Footer />
     </div>
   );
 }

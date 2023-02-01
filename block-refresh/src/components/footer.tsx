@@ -1,5 +1,6 @@
 import React from "react";
 import { FaLinkedin, FaFacebookSquare, FaInstagram } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 export const Footer = () => {
   return (
@@ -28,13 +29,13 @@ export const Footer = () => {
               </h2>
               <ul>
                 <li className="mb-4 transition-colors duration-200 hover:text-[#475c54] dark:hover:text-[#cce3de]">
-                  <a href="http://localhost:3000/">Home</a>
+                  <Link to="/">Home</Link>
                 </li>
                 <li className="mb-4 transition-colors duration-200 hover:text-[#475c54] dark:hover:text-[#cce3de]">
-                  <a href="http://localhost:3000/AboutPage">About Us</a>
+                  <Link to="AboutPage">About Us</Link>
                 </li>
                 <li className="mb-4 transition-colors duration-200 hover:text-[#475c54] dark:hover:text-[#cce3de]">
-                  <a href="http://localhost:3000/Contact">Contact Us</a>
+                  <Link to="Contact">Contact Us</Link>
                 </li>
               </ul>
             </div>
@@ -46,13 +47,13 @@ export const Footer = () => {
               </h2>
               <ul>
                 <li className="mb-4 transition-colors duration-200 hover:text-[#475c54] dark:hover:text-[#cce3de]">
-                  <a href="http://localhost:3000/Membership">Membership</a>
+                  <Link to="Membership">Membership</Link>
                 </li>
                 <li className="mb-4 transition-colors duration-200 hover:text-[#475c54] dark:hover:text-[#cce3de]">
-                  <a href="http://localhost:3000/Donate">Donate</a>
+                  <Link to="Donate">Donate</Link>
                 </li>
                 <li className="mb-4 transition-colors duration-200 hover:text-[#475c54] dark:hover:text-[#cce3de]">
-                  <a href="http://localhost:3000/Membership">Log In</a>
+                  <Link to="Membership">Log In</Link>
                 </li>
               </ul>
             </div>
