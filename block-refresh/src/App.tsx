@@ -1,11 +1,11 @@
 import React from "react";
-import { Navbar } from "./components/navbar";
-import AboutPage from "./components/AboutPage";
-import { Home } from "./components/home";
+import { Navbar } from "./components/Navigation/navbar";
+import AboutPage from "./components/About Us Page/AboutPage";
+import { Home } from "./components/Home Page/home";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Footer } from "./components/footer";
-import Membership from "./components/Memership";
-import { Contact } from "./components/contact";
+import { Footer } from "./components/Navigation/footer";
+import Membership from "./components/Membership Page/Memership";
+import { Contact } from "./components/Contact Page/contact";
 
 function App() {
   return (
