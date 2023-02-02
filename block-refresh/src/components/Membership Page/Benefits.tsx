@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 const natureBooks = require("../Images/nature-books.webp");
 class Benefitsprops {}
 
@@ -28,12 +29,12 @@ const Benefits: React.FC<Benefitsprops> = () => {
                 future for both people and the environment.
               </p>
 
-              <a
-                href="/donate"
+              <Link
+                to="/LogIn"
                 className="mt-8 inline-flex items-center rounded border bg-green-700 px-8 py-3 text-white transition duration-500 hover:bg-transparent hover:text-green-900 focus:outline-none focus:ring active:text-indigo-500"
               >
                 <span className="text-base font-medium"> Give Monthly</span>
-              </a>
+              </Link>
             </div>
           </div>
         </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 class Hero {}
 
@@ -22,19 +23,19 @@ const MembershipHero: React.FC<Hero> = () => {
             </h1>
             <p className="mt-4 max-w-lg sm:text-xl sm:leading-relaxed"></p>
             <div className="mt-8 flex flex-wrap gap-4 text-center">
-              <a
-                href="/donate"
+              <Link
+                to="/LogIn"
                 className="block w-full rounded bg-green-700 px-12 py-3 text-sm font-medium text-white shadow transition duration-500 hover:bg-green-900 focus:outline-none focus:ring active:bg-green-700 sm:w-auto"
               >
                 Donate
-              </a>
+              </Link>
 
-              <a
-                href="/donate"
+              <Link
+                to="/Contact"
                 className="block w-full rounded bg-white px-12 py-3 text-sm font-medium text-green-700 shadow transition duration-500 hover:bg-gray-300 focus:outline-none focus:ring active:text-rose-500 sm:w-auto"
               >
                 Learn More
-              </a>
+              </Link>
             </div>
           </div>
         </div>
