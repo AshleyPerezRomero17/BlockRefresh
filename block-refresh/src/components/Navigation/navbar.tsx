@@ -57,13 +57,7 @@ export const Navbar = () => {
                   >
                     Membership
                   </Link>
-                  <Link
-                    className="hover:text-[#475c54] dark:hover:text-[#cce3de] px-3 py-2 rounded-md text-sm font-medium"
-                    to="/Donate"
-                  >
-                    Donate
-                  </Link>
-                  <Link to="/Membership">
+                  <Link to="/LogIn">
                     <button className="p-4 whitespace-nowrap rounded-full text-white bg-[#668378] hover:bg-[#303e39]">
                       Log In
                     </button>

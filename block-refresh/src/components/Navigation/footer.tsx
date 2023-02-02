@@ -47,13 +47,10 @@ export const Footer = () => {
               </h2>
               <ul>
                 <li className="mb-4 transition-colors duration-200 hover:text-[#475c54] dark:hover:text-[#cce3de]">
-                  <Link to="Membership">Membership</Link>
+                  <Link to="/Membership">Membership</Link>
                 </li>
                 <li className="mb-4 transition-colors duration-200 hover:text-[#475c54] dark:hover:text-[#cce3de]">
-                  <Link to="Donate">Donate</Link>
-                </li>
-                <li className="mb-4 transition-colors duration-200 hover:text-[#475c54] dark:hover:text-[#cce3de]">
-                  <Link to="Membership">Log In</Link>
+                  <Link to="/LogIn">Log In</Link>
                 </li>
               </ul>
             </div>
