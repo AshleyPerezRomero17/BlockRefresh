@@ -13,7 +13,7 @@ const HeaderSection: React.FC<Props> = () => {
             creation, and restoration of open spaces, parks, and community
             gardens. We strive to create vibrant and healthy communities that
             foster a connection to nature and provide opportunities for
-            recreation and community building."
+            recreation and community building.
           </p>
         </div>
         <div className="right-section">
