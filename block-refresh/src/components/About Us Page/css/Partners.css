@@ -31,9 +31,30 @@
             justify-content: end;
         }
 
-      
 .our-partners-section .right-section {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+@media screen and (max-width: 900px) {
+    .our-partners-section {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+        .partner-img {
+            margin: 0 15px;
+            height: 80px;
+            width: 80px;
+        }
+    
+        .our-partners-section .left-section {
+            padding: 0 20px;
+            margin-bottom: 15px;
+        }
+    
+        .separation-line-section {
+            padding: 0 40px;
+        }
+    }

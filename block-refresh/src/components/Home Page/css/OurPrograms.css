@@ -31,5 +31,18 @@
     height: auto;
     }
 
+    @media screen and (max-width: 900px) {
+        .our-programs-section {
+            flex-wrap: wrap;
+            text-align: center;
+            justify-content: center;
+        }
 
+        .our-programs-section .left-section {
+            width: 100%;
+        }
+        .our-programs-section .right-section {
+            width: 100%;
+        }
+    }
 

@@ -51,4 +51,18 @@
 
 .home {
     margin-bottom: 200px;
-  }
+    }
+
+    .home {
+    margin-bottom: 200px;
+    }
+
+    @media screen and (max-width: 900px) {
+    .home {
+        margin-bottom: 100px;
+    }
+
+    .hero-text-home h1 {
+        font-size: 42px;
+    }
+}
