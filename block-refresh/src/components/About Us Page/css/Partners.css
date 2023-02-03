@@ -1,6 +1,7 @@
 .our-partners-section .left-section {
     color: black;
     text-align: left;
+    width: 45%
     }
     
     .our-partners-section .left-section h2 {
@@ -52,6 +53,7 @@
         .our-partners-section .left-section {
             padding: 0 20px;
             margin-bottom: 15px;
+            width: 100%;
         }
     
         .separation-line-section {
