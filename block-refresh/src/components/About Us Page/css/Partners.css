@@ -29,7 +29,7 @@
             padding: 60px 0;
             margin-bottom: 60px;
             display: flex;
-            justify-content: end;
+            justify-content: center;
         }
 
 .our-partners-section .right-section {
@@ -41,7 +41,6 @@
 @media screen and (max-width: 900px) {
     .our-partners-section {
         flex-wrap: wrap;
-        justify-content: center;
     }
     
         .partner-img {
