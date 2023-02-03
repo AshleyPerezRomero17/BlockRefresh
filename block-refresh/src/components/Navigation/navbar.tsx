@@ -106,9 +106,9 @@ export const Navbar = () => {
             </Link>
             <Link
               className="text-[#b4c9c5] hover:text-[#475c54] dark:hover:text-[#cce3de] block px-3 py-2 rounded-md text-base font-medium"
-              to="/Donate"
+              to="/LogIn"
             >
-              Donate
+              Log In
             </Link>
           </div>
         </div>
