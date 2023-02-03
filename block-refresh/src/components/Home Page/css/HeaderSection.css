@@ -44,3 +44,15 @@
     .header-section .left-section-hs {
         max-width: 600px;
     }
+
+    @media screen and (max-width: 900px) {
+        .header-section {
+            flex-wrap: wrap;
+            text-align: center;
+            justify-content: center;
+        }
+
+        .header-section .right-header {
+            margin-top: 20px;
+        }
+    }

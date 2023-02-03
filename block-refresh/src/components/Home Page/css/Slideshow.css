@@ -21,3 +21,14 @@
             font-size: 20px;
             width: 50%;
         }
+
+        @media screen and (max-width: 900px) {
+            .slideshow-text {
+                bottom: 0;
+                font-size: 14px;
+            }
+    
+            .slideshow-section {
+                min-width: 360px;
+            }
+        }

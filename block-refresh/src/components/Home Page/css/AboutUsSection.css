@@ -14,12 +14,12 @@
     text-align: center;
 }
 
-.left-section {
+.about-us-section .left-section {
     width: 45%;
     font-size: 24px;
 }
 
-.right-section {
+.about-us-section .right-section {
     width: 45%;
     font-size: 20px;
 }
@@ -46,4 +46,20 @@
     font-size: 20px;
     max-width: 500px;
     margin: 0 auto;
+}
+
+@media screen and (max-width: 900px) {
+    .about-us-section .right-section {
+        width: 100% ;
+        margin: 20px 0;
+    }
+
+    .about-us-section .left-section {
+        width: 100% ;
+        margin: 20px 0;
+    }
+
+    .p-width {
+        font-size: 18px;
+    }
 }

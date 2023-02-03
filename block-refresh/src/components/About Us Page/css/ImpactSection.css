@@ -48,3 +48,19 @@
             max-width: 500px;
             margin: 0 auto;
         }
+
+        @media screen and (max-width: 900px) {
+            .mission p {
+                font-size: 18px;
+                padding: 0 20px;
+            }
+
+            .impact-section .left-section {
+                width: 100%;
+            }
+            
+            .impact-section .right-section {
+                width: 100%;
+                margin: 20px 0;
+            }
+        }
